@@ -26,9 +26,9 @@ export default function TodoForm() {
         <form onSubmit={handleSubmit}>
             <div>
                 <div>
-                    <input value={title || ''} onChange={handleNameChange} placeholder="ToDo item" className="shadow appearance-none border rounded w-full py-
+                    <input value={title || ''} onChange={handleNameChange} placeholder="ToDo item" className="shadow appearance-none bg-white border rounded w-full py-
                     2 px-3 mr-4 text-grey-darker" />
-                    <button className="flex-no-shrink m-2 p-2 border-2 rounded text-teal bg-white border-teal hover:text-emerald-700 hover:bg-teal">Add</button>
+                    <button className="flex-no-shrink m-2 p-2 border-2 text-black rounded text-teal bg-white border-teal hover:text-emerald-700 hover:bg-teal">Add</button>
                 </div>
             </div>
         </form>
