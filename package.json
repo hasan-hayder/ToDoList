@@ -2,6 +2,7 @@
   "name": "dolist",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hasan-hayder.github.io/ToDoList",
   "dependencies": {
     "@adobe/react-spectrum": "^3.27.0",
     "@testing-library/jest-dom": "^5.16.5",
